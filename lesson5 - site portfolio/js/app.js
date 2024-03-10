@@ -5,8 +5,11 @@ document.querySelectorAll('.slider').forEach((n,i) => {
       direction: 'vertical',
       mousewheel: true,
       slidesPerView: 1.75,
+      slidesOffsetBefore: -125
     })
 })
+
+bindSwipers(slider1,slider2,slider3,slider4)
 
 
 
